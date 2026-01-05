@@ -92,9 +92,10 @@ function App() {
       {/* Loading Screen */}
       <LoadingScreen isLoading={isLoading} progress={progress} />
 
-      <div className="relative min-h-screen bg-gradient-to-b from-cream via-sunflower/10 to-soft-pink/10">
-        {/* Floating background elements */}
-        <FloatingElements />
+      {!isLoading && (
+        <div className="relative min-h-screen bg-gradient-to-b from-cream via-sunflower/10 to-soft-pink/10">
+          {/* Floating background elements */}
+          <FloatingElements />
 
       {/* Main content */}
       <div className="relative z-10">
@@ -253,7 +254,8 @@ function App() {
 
       {/* Music Player */}
       <MusicPlayer />
-    </div>
+        </div>
+      )}
     </>
   );
 }

@@ -9,7 +9,7 @@ const LoadingScreen = ({ progress, isLoading }) => {
           initial={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.8 }}
-          className="fixed inset-0 z-[9999] bg-gradient-to-b from-cream via-sunflower/20 to-soft-pink/20 flex flex-col items-center justify-center"
+          className="fixed inset-0 z-[9999] bg-cream flex flex-col items-center justify-center"
         >
           <motion.div
             animate={{
