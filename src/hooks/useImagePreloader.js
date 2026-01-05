@@ -12,33 +12,33 @@ export const useImagePreloader = () => {
 
     Object.entries(imageManifest).forEach(([folder, files]) => {
       files.forEach(filename => {
-        allImagePaths.push(`/surprise/images/${folder}/${filename}`);
+        allImagePaths.push(`/happybirthdaybyul/images/${folder}/${filename}`);
       });
     });
 
     // Add other static images
     const staticImages = [
-      '/surprise/images/birthday-cake.png',
-      '/surprise/images/deco-1.png',
-      '/surprise/images/deco-2.png',
-      '/surprise/images/deco-3.png',
-      '/surprise/images/deco-4.png',
-      '/surprise/images/deco-5.png',
-      '/surprise/images/deco-6.png',
-      '/surprise/images/deco-7.png',
-      '/surprise/images/deco-8.png',
-      '/surprise/images/deco-9.png',
-      '/surprise/images/deco-10.png',
-      '/surprise/images/deco-11.png',
-      '/surprise/images/deco-12.png',
-      '/surprise/images/deco-13.png',
-      '/surprise/images/love_chart.png',
-      '/surprise/images/achievement-1.jpg',
-      '/surprise/images/achievement-2.jpg',
-      '/surprise/images/achievement-3.jpg',
-      '/surprise/images/achievement-4.jpg',
-      '/surprise/images/achievement-5.jpg',
-      '/surprise/images/achievement-6.jpg',
+      '/happybirthdaybyul/images/birthday-cake.png',
+      '/happybirthdaybyul/images/deco-1.png',
+      '/happybirthdaybyul/images/deco-2.png',
+      '/happybirthdaybyul/images/deco-3.png',
+      '/happybirthdaybyul/images/deco-4.png',
+      '/happybirthdaybyul/images/deco-5.png',
+      '/happybirthdaybyul/images/deco-6.png',
+      '/happybirthdaybyul/images/deco-7.png',
+      '/happybirthdaybyul/images/deco-8.png',
+      '/happybirthdaybyul/images/deco-9.png',
+      '/happybirthdaybyul/images/deco-10.png',
+      '/happybirthdaybyul/images/deco-11.png',
+      '/happybirthdaybyul/images/deco-12.png',
+      '/happybirthdaybyul/images/deco-13.png',
+      '/happybirthdaybyul/images/love_chart.png',
+      '/happybirthdaybyul/images/achievement-1.jpg',
+      '/happybirthdaybyul/images/achievement-2.jpg',
+      '/happybirthdaybyul/images/achievement-3.jpg',
+      '/happybirthdaybyul/images/achievement-4.jpg',
+      '/happybirthdaybyul/images/achievement-5.jpg',
+      '/happybirthdaybyul/images/achievement-6.jpg',
     ];
 
     const imagesToLoad = [...allImagePaths, ...staticImages];

@@ -27,7 +27,7 @@ const PhotoSection = () => {
   const months = monthsConfig.map((config, index) => {
     const filesInFolder = imageManifest[config.folder] || [];
     const images = filesInFolder.map(filename =>
-      `/surprise/images/${config.folder}/${filename}`
+      `/happybirthdaybyul/images/${config.folder}/${filename}`
     );
 
     return {

@@ -53,7 +53,7 @@ const MusicPlayer = () => {
     <>
       <audio
         ref={audioRef}
-        src="/surprise/sound/music.mp3"
+        src="/happybirthdaybyul/sound/music.mp3"
         loop
         preload="auto"
       />

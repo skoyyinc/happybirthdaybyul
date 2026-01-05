@@ -61,10 +61,10 @@ const LoveChartSection = () => {
   }, [scrollProgress]);
 
   const floatingImages = [
-    { src: '/surprise/images/deco-5.png', initialX: '8%', initialY: '15%', moveX: 200, moveY: -100, rotate: 90, scale: 1.2 },
-    { src: '/surprise/images/deco-6.png', initialX: '85%', initialY: '20%', moveX: -180, moveY: 120, rotate: -60, scale: 1 },
-    { src: '/surprise/images/deco-7.png', initialX: '12%', initialY: '70%', moveX: 150, moveY: -150, rotate: 45, scale: 1.3 },
-    { src: '/surprise/images/deco-8.png', initialX: '90%', initialY: '75%', moveX: -200, moveY: -80, rotate: -120, scale: 1.1 },
+    { src: '/happybirthdaybyul/images/deco-5.png', initialX: '8%', initialY: '15%', moveX: 200, moveY: -100, rotate: 90, scale: 1.2 },
+    { src: '/happybirthdaybyul/images/deco-6.png', initialX: '85%', initialY: '20%', moveX: -180, moveY: 120, rotate: -60, scale: 1 },
+    { src: '/happybirthdaybyul/images/deco-7.png', initialX: '12%', initialY: '70%', moveX: 150, moveY: -150, rotate: 45, scale: 1.3 },
+    { src: '/happybirthdaybyul/images/deco-8.png', initialX: '90%', initialY: '75%', moveX: -200, moveY: -80, rotate: -120, scale: 1.1 },
   ];
 
   return (
@@ -111,7 +111,7 @@ const LoveChartSection = () => {
         className="max-w-4xl w-full relative z-10"
       >
         <img
-          src="/surprise/images/love_chart.png"
+          src="/happybirthdaybyul/images/love_chart.png"
           alt="Love Chart"
           className="w-full h-auto rounded-3xl shadow-2xl border-4 border-white"
         />

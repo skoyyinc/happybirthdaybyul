@@ -8,7 +8,7 @@ const AchievementsSection = () => {
       icon: Heart,
       title: 'Got a boyfriend',
       description: 'The best one',
-      image: '/surprise/images/achievement-1.JPG',
+      image: '/happybirthdaybyul/images/achievement-1.JPG',
       color: 'from-yellow-400 to-orange-400',
     },
     {
@@ -16,7 +16,7 @@ const AchievementsSection = () => {
       icon: Trophy,
       title: 'Become a Masters Degree Graduate',
       description: 'With Merit',
-      image: '/surprise/images/achievement-2.JPG',
+      image: '/happybirthdaybyul/images/achievement-2.JPG',
       color: 'from-pink-400 to-rose-400',
     },
     {
@@ -24,7 +24,7 @@ const AchievementsSection = () => {
       icon: Star,
       title: 'Reached the summit of Ben Nevis on winter',
       description: 'Tallest mountain in the UK',
-      image: '/surprise/images/achievement-3.jpg',
+      image: '/happybirthdaybyul/images/achievement-3.jpg',
       color: 'from-purple-400 to-pink-400',
     },
     {
@@ -32,7 +32,7 @@ const AchievementsSection = () => {
       icon: Sparkles,
       title: 'Played for the Arsenal FC Womens Team',
       description: 'and almost scored a goal',
-      image: '/surprise/images/achievement-4.jpg',
+      image: '/happybirthdaybyul/images/achievement-4.jpg',
       color: 'from-blue-400 to-cyan-400',
     },
     {
@@ -40,7 +40,7 @@ const AchievementsSection = () => {
       icon: Award,
       title: 'Scored a 200kg Tuna',
       description: 'For dinner',
-      image: '/surprise/images/achievement-5.jpg',
+      image: '/happybirthdaybyul/images/achievement-5.jpg',
       color: 'from-green-400 to-emerald-400',
     },
     {
@@ -48,7 +48,7 @@ const AchievementsSection = () => {
       icon: Crown,
       title: 'Nobel Prize Winner',
       description: 'The worlds best friend and girlfriend',
-      image: '/surprise/images/achievement-6.jpg',
+      image: '/happybirthdaybyul/images/achievement-6.jpg',
       color: 'from-sunflower to-amber-400',
     },
   ];

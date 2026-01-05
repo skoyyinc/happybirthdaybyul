@@ -122,7 +122,7 @@ function App() {
             className="mb-8"
           >
             
-            <img src="/surprise/images/birthday-cake.png" alt="Cake" className="w-32 h-32" />
+            <img src="/happybirthdaybyul/images/birthday-cake.png" alt="Cake" className="w-32 h-32" />
           </motion.div>
 
           <motion.h1

@@ -71,11 +71,11 @@ const CakeSection = () => {
   const allCandlesOut = litCandles.every(candle => !candle);
 
   const floatingImages = [
-    { src: '/surprise/images/deco-9.png', initialX: '10%', initialY: '18%', moveX: 220, moveY: -90, rotate: 75, scale: 1.1 },
-    { src: '/surprise/images/deco-10.png', initialX: '88%', initialY: '22%', moveX: -200, moveY: 100, rotate: -80, scale: 1.3 },
-    { src: '/surprise/images/deco-11.png', initialX: '15%', initialY: '68%', moveX: 180, moveY: -120, rotate: 60, scale: 1 },
-    { src: '/surprise/images/deco-12.png', initialX: '85%', initialY: '72%', moveX: -160, moveY: -70, rotate: -100, scale: 1.2 },
-    { src: '/surprise/images/deco-13.png', initialX: '50%', initialY: '10%', moveX: 100, moveY: 150, rotate: 120, scale: 1.1 },
+    { src: '/happybirthdaybyul/images/deco-9.png', initialX: '10%', initialY: '18%', moveX: 220, moveY: -90, rotate: 75, scale: 1.1 },
+    { src: '/happybirthdaybyul/images/deco-10.png', initialX: '88%', initialY: '22%', moveX: -200, moveY: 100, rotate: -80, scale: 1.3 },
+    { src: '/happybirthdaybyul/images/deco-11.png', initialX: '15%', initialY: '68%', moveX: 180, moveY: -120, rotate: 60, scale: 1 },
+    { src: '/happybirthdaybyul/images/deco-12.png', initialX: '85%', initialY: '72%', moveX: -160, moveY: -70, rotate: -100, scale: 1.2 },
+    { src: '/happybirthdaybyul/images/deco-13.png', initialX: '50%', initialY: '10%', moveX: 100, moveY: 150, rotate: 120, scale: 1.1 },
   ];
 
   return (

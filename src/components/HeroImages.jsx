@@ -53,7 +53,7 @@ const HeroImages = () => {
   // Image positions - sporadic placement
   const images = [
     {
-      src: '/surprise/images/deco-1.png',
+      src: '/happybirthdaybyul/images/deco-1.png',
       initialX: '10%',
       initialY: '15%',
       moveX: 300,
@@ -62,7 +62,7 @@ const HeroImages = () => {
       scale: 1
     },
     {
-      src: '/surprise/images/deco-2.png',
+      src: '/happybirthdaybyul/images/deco-2.png',
       initialX: '80%',
       initialY: '20%',
       moveX: -300,
@@ -71,7 +71,7 @@ const HeroImages = () => {
       scale: 1.2
     },
     {
-      src: '/surprise/images/deco-3.png',
+      src: '/happybirthdaybyul/images/deco-3.png',
       initialX: '15%',
       initialY: '70%',
       moveX: 200,
@@ -80,7 +80,7 @@ const HeroImages = () => {
       scale: 1.1
     },
     {
-      src: '/surprise/images/deco-4.png',
+      src: '/happybirthdaybyul/images/deco-4.png',
       initialX: '70%',
       initialY: '40%',
       moveX: -1600,
