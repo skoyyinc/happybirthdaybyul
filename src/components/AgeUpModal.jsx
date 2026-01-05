@@ -10,16 +10,18 @@ const AgeUpModal = ({ isOpen, onClose }) => {
     adventures: false,
     laughs: false,
     love: false,
-
+    god: false,
   });
   const [hasAgedUp, setHasAgedUp] = useState(false);
 
   const termsAndConditions = [
+    { id: 'god', text: 'Aku akan lebih rajin solat dan mengaji' },
     { id: 'kisses', text: 'I agree to love myself, my family, my friends, and my boyfriend more' },
     { id: 'cute', text: 'I promise to stay this cute forever' },
     { id: 'adventures', text: 'Aku akan mulai tidak lupa atau telat memberi kabar' },
     { id: 'laughs', text: 'Aku akan mulai olahraga rutin dan teratur' },
     { id: 'love', text: 'I accept unlimited hugs and affection without complaint' },
+    
 
   ];
 
@@ -77,7 +79,7 @@ const AgeUpModal = ({ isOpen, onClose }) => {
       adventures: false,
       laughs: false,
       love: false,
-
+      god: false,
     });
     setHasAgedUp(false);
     onClose();
